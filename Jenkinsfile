@@ -6,7 +6,8 @@ pipeline {
         maven "maven3.9.8"
     }
 
-
+    //sample change to trigger pipeline
+    
     stages {
         stage('Build') {
             steps {
